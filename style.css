@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+li {
+  display:inline-block;
+  margin-right:15px;
+}
+a{
+  text-decoration:none;
+}
+nav{
+  text-align:right;
+  padding-top:17px;
+  padding-right:20px;
+}
+nav a{
+  font-size:12px;
+  color:black;
+}
+.account{
+  width:32px;
+  height:32px;
+  border-radius:100%;
+  background-color:firebrick;
+  position:relative;
+  top:-2px;
+}
+.account a{
+  color:white;
+  font-size:18px;
+  position:relative;
+  top:5px;
+  left:-9px;
+}
+.icon1 i{
+  color:grey;
+}
+.icon2{
+  background-color:grey;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  position:relative;
+  top:0px;
+  left:2px;
+}
+.icon2 i{
+  color:white;
+  position:relative;
+  top:-1px;
+  left:-4px;
+
+}
+img{
+  display:block;
+  margin:auto;
+  margin-top:150px;
+}
+textarea{
+  display:block;
+  margin:auto;
+  margin-top:30px;
+  padding:7px;
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.button{
+  display:block;
+  margin:auto;
+  width:30%;
+  height:148px;
+  padding-top:35px;
+}
+.research:hover, .chance:hover{
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.research:hover p, .chance:hover p{
+  color:rgba(0,0,0,0.9);
+}
+.research, .chance{
+  display:inline-block;
+  width:40%;
+  height:40px;
+  background-color: rgba(240,240,240,0.8);
+  font-size:12px;
+  cursor:default;
+}
+.research{
+  margin-left:36px;
+}
+.research p, .chance p{
+  color:rgba(0,0,0,0.5);
+  text-align:center;
+  line-height: 40px;
+  font-weight:bold;
+}
+.pays{
+  width:99.6%;
+  height:30px;
+  padding-top:15px;
+  background-color: rgba(240,240,240,0.8);
+  border-top:1px solid rgba(200,200,200,0.2);
+  border-left:1px solid rgba(200,200,200,0.2);
+  border-right:1px solid rgba(200,200,200,0.2);
+}
+.pays p{
+  font-size:14px;
+  margin-left:35px;
+  color:rgba(0,0,0,0.6);
+}
+footer{
+  background-color:rgba(240,240,240,0.8);
+  padding-top:10px;
+  border:1px solid rgba(200,200,200,0.2);
+}
+.f_left, .f_right{
+  width:49.8%;
+  height:35px;
+  display:inline-block;
+}
+.f_left{
+  text-align:left;
+}
+.f_right{
+  text-align:right;
+}
+.f_left a, .f_right a{
+  font-size:12px;
+  color:rgba(0,0,0,0.6);
+}
+.f_left ul{
+  margin-left:35px;
+}
+.f_right ul{
+  margin-right:15px;
+}
