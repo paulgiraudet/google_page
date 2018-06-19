@@ -10,6 +10,9 @@ li {
 a{
   text-decoration:none;
 }
+a:hover{
+  text-decoration:underline;
+}
 nav{
   text-align:right;
   padding-top:17px;
@@ -58,25 +61,30 @@ img{
   margin:auto;
   margin-top:150px;
 }
-textarea{
+input{
   display:block;
   margin:auto;
-  margin-top:30px;
-  padding:7px;
-  border:1px solid rgba(0,0,0,0.2);
-  box-shadow:0px 1px 3px rgba(0, 0, 0, 0.2);
+  width:43%;
+  box-shadow: 0px 2px 3px rgba(190,190,190,0.5);
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-left: 10px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid rgba(200,200,200,0.5);
 }
-
-
-
-
-
+input:hover{
+  border: 1px solid rgba(140,140,140,0.4);
+  box-shadow: 0px 2px 3px rgba(140,140,140,0.5);
+}
 .button{
   display:block;
   margin:auto;
   width:30%;
   height:148px;
-  padding-top:35px;
+  padding-top:5px;
 }
 .research:hover, .chance:hover{
   border:1px solid rgba(0,0,0,0.2);
@@ -89,6 +97,7 @@ textarea{
   display:inline-block;
   width:40%;
   height:40px;
+  border:1px solid rgba(240,240,240,0.8);
   background-color: rgba(240,240,240,0.8);
   font-size:12px;
   cursor:default;
